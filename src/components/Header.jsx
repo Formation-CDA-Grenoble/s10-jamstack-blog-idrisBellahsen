@@ -4,7 +4,7 @@ import { SearchForm } from '.';
 import { Link } from 'react-router-dom';
 
 const Header = () =>
-  <header>
+  <header className="head">
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

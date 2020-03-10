@@ -1,0 +1,25 @@
+  
+.container{
+    display: grid;
+  width: 100%;
+  grid-template-areas:  "head head"
+                        "side  content"
+                        "side  content";
+                        
+  grid-template-rows: auto 2fr 30px;
+  grid-template-columns: default 200px auto;
+
+  }
+  .head{
+    grid-area: head;
+  }
+
+
+.sidenav {
+    grid-area: side;
+   
+  }
+  
+main{
+    grid-area: content;
+}
